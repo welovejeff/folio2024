@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeff Mac's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 72px;
+            margin-bottom: 10px;
+            letter-spacing: -2px;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #666;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        .hero-image {
+            height: 600px;
+            background-image: url('/api/placeholder/600/600');
+            background-size: cover;
+            background-position: center;
+        }
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .lead {
+            font-size: 24px;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 60px;
+        }
+        .main-content {
+            font-size: 18px;
+        }
+        .sidebar {
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .sidebar h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 60px;
+            border-top: 1px solid #ddd;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Jeff Mac</h1>
+            <p class="subtitle">Portfolio | 2024</p>
+        </header>
+        <section class="hero">
+            <div class="hero-image"></div>
+            <div class="hero-content">
+                <h2>Welcome to My World</h2>
+                <p class="lead">Crafting digital experiences that inspire and engage.</p>
+                <p>As a passionate [Your Profession], I bring creativity and technical expertise to every project. Explore my portfolio to see how I turn ideas into reality.</p>
+            </div>
+        </section>
+        <div class="content">
+            <div class="main-content">
+                <h2>My Approach</h2>
+                <p>In the ever-evolving digital landscape, I pride myself on staying ahead of the curve. My work is a blend of innovative design and cutting-edge technology, always with the end-user in mind.</p>
+                <p>Whether it's developing robust web applications, creating intuitive user interfaces, or optimizing for peak performance, I tackle each project with enthusiasm and dedication.</p>
+                <h2>Featured Projects</h2>
+                <p>Here you can list and briefly describe some of your notable projects. Each project could be a separate section with its own heading, description, and possibly a link or image.</p>
+            </div>
+            <aside class="sidebar">
+                <h3>Skills Spotlight</h3>
+                <ul>
+                    <li>Web Development</li>
+                    <li>UX/UI Design</li>
+                    <li>Mobile App Development</li>
+                    <li>Cloud Architecture</li>
+                </ul>
+                <h3>Get in Touch</h3>
+                <p>Email: jeff@example.com</p>
+                <p>LinkedIn: @jeffmac</p>
+                <p>GitHub: @jeffmac-dev</p>
+            </aside>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Jeff Mac. All rights reserved.</p>
+    </footer>
+</body>
+</html>
