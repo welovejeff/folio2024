@@ -36,7 +36,7 @@
         }
         .hero-image {
             height: 600px;
-            background-image: url('/api/placeholder/600/600');
+            background-image: url('img/UpdatedBG_Headshot2018.jpg');
             background-size: cover;
             background-position: center;
         }
